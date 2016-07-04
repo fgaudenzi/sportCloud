@@ -15,7 +15,10 @@ def reading(file):
     return  json.load(open(file))
 @app.route('/sport',methods=['GET'])
 def allCinemas():
-    listFile=os.listdir("static/sport3/")
+    try:
+        listFile=os.listdir("static/sport3/")
+    except Exception,e:
+		return 404,""
     result=[]
     for l in listFile:
         result.append({"id":l})
