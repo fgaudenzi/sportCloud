@@ -3,8 +3,11 @@ import json
 from datetime import datetime
 from flask import Flask, request, flash, url_for, redirect, \
      render_template, abort, send_from_directory, jsonify
+from flask_cors import CORS, cross_origin
+
 
 app = Flask(__name__)
+CORS(app)
 app.config.from_pyfile('flaskapp.cfg')
 
 
