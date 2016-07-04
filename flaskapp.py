@@ -15,10 +15,8 @@ def reading(file):
     return  json.load(open(file))
 @app.route('/sport',methods=['GET'])
 def allCinemas():
-    try:
-        listFile=os.listdir("static/sport3/")
-    except Exception,e:
-		return 404,""
+    listFile=os.listdir("static/sport3/")
+
     result=[]
     for l in listFile:
         result.append({"id":l})
@@ -35,7 +33,11 @@ def tester(articleid):
 
 @app.route('/sport/<articleid>',methods=['GET'])
 def getCinema(articleid):
-    return jsonify(reading("static/sport3/"+articleid)),200
+    try:
+        app=reading("static/sport3/"+str(articleid))
+    except Exception,e:
+		return "NOT FOUND 404",404
+    return jsonify(app),200
 
 
 
