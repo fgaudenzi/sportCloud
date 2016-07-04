@@ -25,7 +25,6 @@ def allCinemas():
 @app.route('/sport/<articleid>',methods=['POST'])
 def tester(articleid):
     if articleid in ["0003","0004","0005","0006","0007","0008","0009","0010"]:
-        print "~/"+articleid
         writing("static/sport3/"+articleid,request.get_json())
         return "",201
     else:
