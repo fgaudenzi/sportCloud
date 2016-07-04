@@ -1,0 +1,20 @@
+
+{
+ "id":"0001",
+ "name": "Roberto",
+ "lastname":"Baggio",
+ "sport":"calcio",
+ "birth":{
+  "placeOfBirth":"Caldogno",
+  "country":"ITALY",
+  "date":"18/02/1967"
+ },
+ "height":174,
+ "weight":73,
+ "thumbnail":"https://upload.wikimedia.org/wikipedia/it/1/1b/Roberto_Baggio_-_Italia_'90.jpg",
+ "statistics":{
+ "Presences":"452","Goals":"205","V":"175","D":"163","L":122
+ }
+ "honors":["UEFA Cup Winners' Cup top scorer (season 1990/91)","Uefa Cup (season 1992/93) with Juventus","Platinum Ball 1993","Golden Ball 1993","Best Player of the world 1993","Fifa World Player of the World 1993","Serie A Championship in 1994-95 with Juventus","Serie A Championship in 1995-96 with Milan","Coppa Italia 1994-95"]
+}
+

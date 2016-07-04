@@ -1,0 +1,19 @@
+{
+        "id":"0002",
+        "name": "Michael",
+        "lastname":"Jordan",
+        "sport":"basket",
+        "birth":{
+                "placeOfBirth":"Brooklyn, New York,",
+                "country":"USA",
+                "date":"17/02/1963"
+        },
+        "height":198,
+        "weight":101,
+        "thumbnail":"http://cdn.playbuzz.com/cdn/71dc0aed-d8ef-4149-bf08-8b726701ffdc/e9a620d2-fb30-40a7-9962-4076386f510f.jpg",
+        "statistics":{
+                "MIN":"41,011",FGM-A:"12,192-24,537","3PM-A":"581-1,778","FTM-A":"7,327-8,772" ,"OFF":"1,668","DEF":" 5,004", "TOT":"6,672","AST":"5,633","STL":"2,514","BLK":"893","TO":"2,924","PF":"2,783","PTS":"32,292"
+        }
+        "honors":[ "NBA champion 1991-93","NBA champion 1996-97","NBA champion 1997-98", "MVP 1988","MVP 1991","MVP 1992","MVP 1996","MVP 1998", "Olympic gold medalist 1984", "Olympic gold medalist 1992"]
+
+}
